@@ -1,0 +1,26 @@
+---
+description: Competitive feature analysis — map, score, and rank competitor features into a prioritized decision matrix for a digital product. Author Rafael Felsemburg.
+globs:
+alwaysApply: false
+---
+
+# Competitive Feature Matrix
+
+When the user wants to compare competitor features, run a feature gap analysis,
+survey the major players in a product segment, decide what to build next, or
+rank features into a decision matrix, read and follow the full skill at
+`skill/competitive-feature-matrix/SKILL.md` and its `references/` files.
+
+Do not work from memory — the scoring rubric and output format are precise.
+
+Mandatory steps from the skill:
+- Ask the scoping questions first: product, segment, core customer problem,
+  competitors to be sure to include, and any specific feature to force-validate.
+- Present the discovered competitor list and WAIT for the user to approve or
+  edit it before analyzing any features. This gate is not optional.
+- Output the full marked matrix: one row per feature, every competitor marked
+  (with the user's own product flagged), a one-line description per feature, the
+  five scores, the priority score, and a verdict — preceded by a plain-language
+  "how to read this matrix" block usable by a PM at any level.
+- Force any user-named feature into the matrix as its own row, even at 0%
+  adoption, so it can be validated against the market.
