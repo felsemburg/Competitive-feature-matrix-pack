@@ -1,11 +1,6 @@
-# Competitive Feature Matrix: AI Skill for Product Managers (Multi-LLM)
 
 **Competitive feature analysis and feature prioritization, automated.** A portable AI agent skill that researches your competitors, maps their features, scores them, and produces a prioritized, decision-ready **feature comparison matrix** — so Product Managers know what to build next, where they are behind the market, and where the untapped whitespace is.
 
-- **Author:** Rafael Felsemburg ([github.com/felsemburg](https://github.com/felsemburg))
-- **Version:** 1.0
-- **Works with:** Claude, Claude Code, Perplexity, Manus.ai, Gemini CLI, Cursor, GitHub Copilot, Codex, Amp, Kilo Code, Antigravity, OpenClaw
-- **License:** use freely within your organization.
 
 > **What is the Competitive Feature Matrix skill?** It is a reusable AI skill (built on the Agent Skills open standard) that runs an end-to-end **competitive analysis** for any digital product — SaaS platform, mobile app, or system. It performs automated competitor research, **feature gap analysis**, and **competitor benchmarking**, then scores every feature on five dimensions and ranks them into a clear *build / fix / differentiate / maintain / skip* table, plus charts and a shareable HTML report. It turns a vague "what should we build and where do we stand?" question into a defensible product prioritization decision.
 
@@ -31,7 +26,7 @@ Given a product and its market segment, the skill:
 3. **Extracts and normalizes** features into comparable, de-duplicated capabilities grouped into clusters.
 4. **Scores** every feature on Essential, Adoption, Differentiation, Problem-fit, and Effort, then computes a composite Priority Score and assigns a verdict.
 5. **Delivers** a full marked **feature matrix** (every competitor marked per feature, with a one-line description) and a decision view that surfaces what to build, where you're behind, and where the whitespace is.
-6. **Saves a self-contained HTML report** — a minimalistic, professional page bundling the summary, the charts, and the full matrix, with an informative date and linked sources. It opens offline (the chart library is inlined), so it's safe to archive and forward to stakeholders. See `examples/returns-management-report-example.html` for a finished sample.
+6. **Saves a self-contained HTML report** — a minimalistic, professional page bundling the summary, the charts, and the full matrix, with an informative date and linked sources. It opens offline (the chart library is inlined), so it's safe to archive and forward to stakeholders. See `examples/sample-report-returns-management.html` for a finished sample.
 
 ## Key features
 
@@ -79,7 +74,7 @@ cfm-pack/
 │           ├── output-templates.md   ← matrix format, how-to-read block, decision-view spec
 │           └── html-report.md        ← spec for the saved self-contained HTML report
 ├── examples/
-│   └── returns-management-report-example.html  ← finished sample report (opens offline)
+│   └── sample-report-returns-management.html  ← labeled sample report (opens offline)
 └── adapters/                         ← per-tool entry files (see install table below)
     ├── AGENTS.md
     ├── CLAUDE.md

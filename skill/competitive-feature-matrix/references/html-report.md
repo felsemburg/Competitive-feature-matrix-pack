@@ -2,6 +2,10 @@
 
 Read before Phase 5. Every run of this skill ends with one saved, self-contained HTML page that the PM can keep, open offline, and forward to stakeholders. It is the durable artifact; the chat output is the conversation, this file is the deliverable.
 
+## Sample vs. live reports
+
+A real run for the PM's own product should render a clean report with no sample banner. Only the example report bundled with the skill for demonstration is labeled as a sample: it carries a visible banner at the top (an amber "SAMPLE" tag plus a note that it illustrates the format with point-in-time data, is a mockup rather than authoritative or current research, and that running the skill produces a live report) and a "[Sample]" prefix in the page title. When generating a report from a genuine analysis, omit both. If you build the report via a generator script, gate this behind a simple flag (e.g. `SAMPLE = True/False`).
+
 ## Non-negotiables
 
 - **Self-contained.** One `.html` file. Inline the chart library (e.g. paste Chart.js into a `<script>` tag) rather than linking a CDN, so the report renders offline and still works years later. No external JS/CSS dependencies. Web fonts via a stylesheet link are acceptable (they degrade gracefully to serif/mono fallbacks); everything load-bearing must be inline.
