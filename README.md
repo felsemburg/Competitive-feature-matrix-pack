@@ -1,6 +1,11 @@
+# Competitive Feature Matrix: AI Skill for Product Managers (Multi-LLM)
 
 **Competitive feature analysis and feature prioritization, automated.** A portable AI agent skill that researches your competitors, maps their features, scores them, and produces a prioritized, decision-ready **feature comparison matrix** — so Product Managers know what to build next, where they are behind the market, and where the untapped whitespace is.
 
+- **Author:** Rafael Felsemburg ([github.com/felsemburg](https://github.com/felsemburg))
+- **Version:** 1.0
+- **Works with:** Claude, Claude Code, Perplexity, Manus.ai, Gemini CLI, Cursor, GitHub Copilot, Codex, Amp, Kilo Code, Antigravity, OpenClaw
+- **License:** use freely within your organization.
 
 > **What is the Competitive Feature Matrix skill?** It is a reusable AI skill (built on the Agent Skills open standard) that runs an end-to-end **competitive analysis** for any digital product — SaaS platform, mobile app, or system. It performs automated competitor research, **feature gap analysis**, and **competitor benchmarking**, then scores every feature on five dimensions and ranks them into a clear *build / fix / differentiate / maintain / skip* table, plus charts and a shareable HTML report. It turns a vague "what should we build and where do we stand?" question into a defensible product prioritization decision.
 
